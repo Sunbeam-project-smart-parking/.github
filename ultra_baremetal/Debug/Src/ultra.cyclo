@@ -1,0 +1,5 @@
+../Src/ultra.c:14:6:Ultra_Init	1
+../Src/ultra.c:62:6:Delay_us	2
+../Src/ultra.c:67:6:Ultra_Trigger	1
+../Src/ultra.c:80:10:Measure_Echo_Time	4
+../Src/ultra.c:113:10:Get_Distance_Cm	1
