@@ -1,0 +1,18 @@
+!SESSION 2025-08-03 16:07:35.290 -----------------------------------------------
+eclipse.buildId=Version 1.18.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-08-03 16:07:49.568
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-08-03 16:07:49.569
+!MESSAGE Log4j2 initialized with config file /home/sunbeam/Desktop/codes/MQ2_intr/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-08-03 16:07:54.536
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-08-03 16:12:54.878
+!MESSAGE Indexed 'MQ2_intr' (19 sources, 81 headers) in 2.41 sec: 4,434 declarations; 18,502 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0087%)

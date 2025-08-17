@@ -1,0 +1,4 @@
+../Core/Inc/core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+../Core/Src/uart.c:18:6:UartInit	16	static
+../Core/Src/uart.c:62:6:UartPuts	16	static
+../Core/Src/uart.c:75:6:USART3_IRQHandler	4	static

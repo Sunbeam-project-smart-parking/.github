@@ -1,0 +1,28 @@
+21:32:10 **** Incremental Build of configuration Debug for project SLOT1 ****
+make -j8 all 
+arm-none-eabi-size  SLOT1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16340	     96	   2064	  18500	   4844	SLOT1.elf
+Finished building: default.size.stdout
+ 
+21:36:52 **** Incremental Build of configuration Debug for project SLOT1 ****
+make -j8 all 
+arm-none-eabi-size  SLOT1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16340	     96	   2064	  18500	   4844	SLOT1.elf
+Finished building: default.size.stdout
+ 
+21:39:19 **** Incremental Build of configuration Debug for project SLOT1 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "SLOT1.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/codes/SLOT1/SLOT1/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SLOT1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SLOT1.elf
+ 
+arm-none-eabi-size  SLOT1.elf 
+arm-none-eabi-objdump -h -S SLOT1.elf  > "SLOT1.list"
+   text	   data	    bss	    dec	    hex	filename
+  16380	     96	   2064	  18540	   486c	SLOT1.elf
+Finished building: default.size.stdout
+ 
+Finished building: SLOT1.list
+ 

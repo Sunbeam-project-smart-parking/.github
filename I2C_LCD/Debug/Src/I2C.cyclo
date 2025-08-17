@@ -1,0 +1,9 @@
+../Src/I2C.c:14:6:I2CInit	1
+../Src/I2C.c:42:6:I2CStart	2
+../Src/I2C.c:49:6:I2CStop	2
+../Src/I2C.c:55:6:I2CRepeateStart	1
+../Src/I2C.c:60:6:I2CSendAddr	2
+../Src/I2C.c:68:6:I2CSendData	3
+../Src/I2C.c:76:9:I2CRecDataAck	2
+../Src/I2C.c:85:9:I2CRecDataNAck	2
+../Src/I2C.c:93:6:I2CWrite	1
